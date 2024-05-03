@@ -252,39 +252,4 @@
       <RequiredItem identifier="poster_tool" type="Equipped" />
     </Holdable>
   </Item>
-
-  <Item name="Putty Knife" identifier="poster_tool" category="Weapon" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True" description="a plastic puddy knife for removing posters">
-      <PreferredContainer secondary="wreckarmcab,abandonedarmcab" amount="1" spawnprobability="0.25" />
-      <PreferredContainer secondary="abandonedstoragecab" amount="1" spawnprobability="0.05" />
-      <PreferredContainer secondary="beaconsupplycab" amount="1" spawnprobability="0.05" />
-      <PreferredContainer primary="secarmcab" secondary="armcab" />
-      <Deconstruct time="10">
-        <Item identifier="plastic" />
-      </Deconstruct>
-      <Fabricate suitablefabricators="fabricator" requiredtime="10">
-        <RequiredItem identifier="plastic" amount="1" />
-      </Fabricate>
-      <InventoryIcon texture="%ModDir%/images/poster_tool.png" sourcerect="0,0,61,19" origin="0.5,0.5" />
-      <Sprite texture="%ModDir%/images/poster_tool.png" sourcerect="0,0,61,19" depth="0.55" origin="0.5,0.5" />
-      <Upgrade gameversion="0.10.0.0" scale="0.5" />
-      <Body width="64" height="64" density="25" />
-      <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="50,0" handle1="-16,0" holdangle="30" reload="0.75" range="50" combatPriority="25" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
-        <Attack targetimpulse="2" severlimbsprobability="0.8" itemdamage="1" structuredamage="0" structuresoundtype="StructureSlash">
-          <Affliction identifier="lacerations" strength="1" />
-          <StatusEffect type="OnUse" target="UseTarget">
-            <Conditional entitytype="eq Character" />
-            <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" selectionmode="random" range="200" />
-            <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="200" />
-            <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="200" />
-            <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="200" />
-            <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="200" />
-            <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="200" />
-          </StatusEffect>
-        </Attack>
-      </MeleeWeapon>
-      <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
-      <Quality>
-        <QualityStat stattype="StrikingPowerMultiplier" value="0.1" />
-      </Quality>
-    </Item>
 </Items>
