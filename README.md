@@ -5,11 +5,14 @@
 ## Description
 The BGE Posters mod is a Steam Workshop mod for the game Barotrauma. It adds a collection of posters and a poster tool that allows players to decorate their submarines with custom artwork and memes from the BGE Discord server.
 
-![Sample Image](./sample_gif.gif)
+![Screenshot](./sample_2.png)
 
 ## Features
 - A variety of posters based on art and memes from the BGE Discord server
 - Poster tool for removal of custom posters
+
+![Posters](./sample_1.gif)
+![Putty Knife](./images/poster_tool.png)
 
 ## Installation
 1. Make sure you have Barotrauma installed on your Steam client.
