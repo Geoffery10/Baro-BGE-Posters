@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="BGE Poster Pack" modversion="1.0.1" corepackage="False" steamworkshopid="3233816715" gameversion="1.4.5.0">
+  <Item file="%ModDir%/posters.xml" />
+  <Other file="%ModDir%/images/sakura_mitsuki.png" />
+  <Text file="%ModDir%/English.xml" />
+</contentpackage>

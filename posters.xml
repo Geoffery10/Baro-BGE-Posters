@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Poster Sakura Mitsuki" identifier="poster_sakura_mitsuki"  tags="mediumitem" scale="0.5" interactdistance="100" maxstacksize="1" description="Poster of Sakura and Mitsuki in Japan.">
+    <Sprite texture="%ModDir%/images/sakura_mitsuki.png" depth="9" sourcerect="0,0,80,100" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="Poster Fox Girl" identifier="poster_fox_girl"  tags="mediumitem" scale="0.5" interactdistance="100" maxstacksize="1" description="Poster of a fox girl">
+    <Sprite texture="%ModDir%/images/fox_girl.png" depth="9" sourcerect="0,0,80,100" scale="0.8" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="Poster BGE Retro" identifier="poster_bge_retro"  tags="mediumitem" scale="0.5" interactdistance="100" maxstacksize="1" description="Poster of a Retro BGE Logo">
+    <Sprite texture="%ModDir%/images/bge_retro.png" depth="9" sourcerect="0,0,80,100" />
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="Poster Mitsuki Ramen" identifier="poster_mitsuki_ramen"  tags="mediumitem" scale="0.5" interactdistance="100" maxstacksize="1" description="Poster of Misuki Slurping Ramen">
+    <Sprite texture="%ModDir%/images/mitsuki_ramen.png" depth="9" sourcerect="0,0,80,100" scale="0.8"/>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="Poster Nonsense Plenty'O Fish" identifier="poster_nonsense_plentyofish"  tags="mediumitem" scale="0.5" interactdistance="100" maxstacksize="1" description="Poster of Plenty'O Fish Outside">
+    <Sprite texture="%ModDir%/images/nonsense_plentyofish.png" depth="9" sourcerect="0,0,80,100" scale="0.8"/>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="Poster Propaganda" identifier="poster_propaganda"  tags="mediumitem" scale="0.4" interactdistance="100" maxstacksize="1" description="Poster of propaganda">
+    <Sprite texture="%ModDir%/images/propaganda.png" depth="9" sourcerect="0,0,80,100" scale="0.8"/>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="Poster Anger Cat" identifier="poster_anger_cat"  tags="mediumitem" scale="0.5" interactdistance="100" maxstacksize="1" description="Poster of an Angry Cat">
+    <Sprite texture="%ModDir%/images/anger_cat.png" depth="9" sourcerect="0,0,80,100" scale="0.8"/>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="Poster Europan Beef" identifier="poster_europan_beef"  tags="mediumitem" scale="0.5" interactdistance="100" maxstacksize="1" description="Poster of Europan Beef">
+    <Sprite texture="%ModDir%/images/beef.png" depth="9" sourcerect="0,0,80,100" scale="0.8"/>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
+  <Item name="Poster Boat Girl" identifier="poster_boat_girl"  tags="mediumitem" scale="0.4" interactdistance="100" maxstacksize="1" description="Poster of an anime girl enjoying BOAT">
+    <Sprite texture="%ModDir%/images/boat_girl.png" depth="9" sourcerect="0,0,80,100" scale="0.8"/>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
+
+  <Item name="Putty Knife" identifier="poster_tool" category="Weapon" Tags="smallitem" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light" RequireAimToUse="True" description="a plastic puddy knife for removing posters">
+      <PreferredContainer secondary="wreckarmcab,abandonedarmcab" amount="1" spawnprobability="0.25" />
+      <PreferredContainer secondary="abandonedstoragecab" amount="1" spawnprobability="0.05" />
+      <PreferredContainer secondary="beaconsupplycab" amount="1" spawnprobability="0.05" />
+      <PreferredContainer primary="secarmcab" secondary="armcab" />
+      <Deconstruct time="10">
+        <Item identifier="plastic" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="10">
+        <RequiredItem identifier="plastic" amount="1" />
+      </Fabricate>
+      <InventoryIcon texture="%ModDir%/images/poster_tool.png" sourcerect="0,0,61,19" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/images/poster_tool.png" sourcerect="0,0,61,19" depth="0.55" origin="0.5,0.5" />
+      <Upgrade gameversion="0.10.0.0" scale="0.5" />
+      <Body width="64" height="64" density="25" />
+      <MeleeWeapon slots="Any,RightHand,LeftHand" aimpos="50,0" handle1="-16,0" holdangle="30" reload="0.75" range="50" combatPriority="25" msg="ItemMsgPickUpSelect" HitOnlyCharacters="true">
+        <Attack targetimpulse="2" severlimbsprobability="0.8" itemdamage="1" structuredamage="0" structuresoundtype="StructureSlash">
+          <Affliction identifier="lacerations" strength="1" />
+          <StatusEffect type="OnUse" target="UseTarget">
+            <Conditional entitytype="eq Character" />
+            <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" selectionmode="random" range="200" />
+            <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="200" />
+            <Sound file="Content/Sounds/Damage/LimbSlash3.ogg" range="200" />
+            <Sound file="Content/Sounds/Damage/LimbSlash4.ogg" range="200" />
+            <Sound file="Content/Sounds/Damage/LimbSlash5.ogg" range="200" />
+            <Sound file="Content/Sounds/Damage/LimbSlash6.ogg" range="200" />
+          </StatusEffect>
+        </Attack>
+      </MeleeWeapon>
+      <aitarget sightrange="500" soundrange="250" fadeouttime="1" />
+      <Quality>
+        <QualityStat stattype="StrikingPowerMultiplier" value="0.1" />
+      </Quality>
+    </Item>
+</Items>
