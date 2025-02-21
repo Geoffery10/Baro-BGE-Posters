@@ -12,7 +12,8 @@ The BGE Posters mod is a Steam Workshop mod for the game Barotrauma. It adds a c
 - **Dependent on the [Poster Tool (Putty Knife) mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3238410294)** for removing custom posters
 
 ![Posters](./sample_1.gif)
-![Putty Knife](./images/poster_tool.png)
+
+![Putty Knife](https://raw.githubusercontent.com/Geoffery10/Baro-Poster-Putty-Knife/refs/heads/main/images/poster_tool.png?token=GHSAT0AAAAAAC665MJBNGL6YBQKJKJLHN54Z5Y3DSA)
 
 ## Installation
 1. Make sure you have Barotrauma installed on your Steam client.
