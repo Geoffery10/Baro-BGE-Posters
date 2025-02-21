@@ -392,4 +392,32 @@
       <RequiredItem identifier="poster_tool" type="Equipped" />
     </Holdable>
   </Item>
+  <Item name="Poster Join the Coalition Today!" identifier="poster_join_the_coalition"  tags="mediumitem" scale="0.4" interactdistance="100" maxstacksize="1" description="Poster of the elite Coalition armed forces prompting you to join now! Maybe that would be better than working on this crappy sub?">
+    <Sprite texture="%ModDir%/images/join_the_coalition.png" depth="9" sourcerect="0,0,80,100" scale="0.8"/>
+    <Fabricate suitablefabricators="fabricator" requiredtime="10">
+      <RequiredItem identifier="organicfiber" />
+    </Fabricate>
+    <Deconstruct time="5">
+      <Item identifier="organicfiber" />
+    </Deconstruct>
+    <CustomInterface canbeselected="false" drawhudwhenequipped="true" hudpriority="20" depth="9">
+      <GuiFrame relativesize="0.15,0.15" anchor="BottomCenter" absoluteoffset="20,20" style="ItemUI" />
+      <Button text="Rotation 0">
+        <StatusEffect type="OnUse" targettype="This" rotation="0" setvalue="true" />
+      </Button>
+      <Button text="Rotation 90">
+        <StatusEffect type="OnUse" targettype="This" rotation="90" setvalue="true" />
+      </Button>
+      <Button text="Rotation 180">
+        <StatusEffect type="OnUse" targettype="This" rotation="180" setvalue="true" />
+      </Button>
+      <Button text="Rotation 270">
+        <StatusEffect type="OnUse" targettype="This" rotation="270" setvalue="true" />
+      </Button>
+    </CustomInterface>
+    <Body width="80" height="100" density="40" />
+    <Holdable selectkey="Select" pickkey="Use" slots="RightHand+LeftHand" msg="itemsdetachposter" PickingTime="10.0" aimpos="65,-10" handle1="0,0" attachable="true" aimable="true">
+      <RequiredItem identifier="poster_tool" type="Equipped" />
+    </Holdable>
+  </Item>
 </Items>
