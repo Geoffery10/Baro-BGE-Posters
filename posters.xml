@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item name="Poster Sakura Mitsuki" identifier="poster_sakura_mitsuki"  tags="mediumitem" scale="0.5" interactdistance="100" maxstacksize="1" description="Poster of Sakura and Mitsuki in Japan.">
+  <Item name="Poster Sakura and Mitsuki" identifier="poster_sakura_mitsuki"  tags="mediumitem" scale="0.5" interactdistance="100" maxstacksize="1" description="Poster of Sakura and Mitsuki in Japan.">
     <Sprite texture="%ModDir%/images/sakura_mitsuki.png" depth="9" sourcerect="0,0,80,100" />
     <Fabricate suitablefabricators="fabricator" requiredtime="10">
       <RequiredItem identifier="organicfiber" />
